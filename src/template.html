@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title><%=htmlWebpackPlugin.options.title%></title>
+</head>
+
+<body>
+  <table width="640" align="center" cellpadding="0" cellspacing="0" style="border: solid 1px #CCC; font-size:12px; text-decoration:none; color:#333">
+  <tr>
+      <td height="80" >
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" >
+              <tr>
+                  <td width="170" align="right" ><a href="#" title="logo" target="_blank"><img src="http://cdn.edm.ibicn.com/edm/201801/00/lianbiao.jpg" alt="logo" width="148" height="31" border="0" /></a></td>
+                  <td style="border-left: solid 1px #CCC"><a href="#" target="_blank"><img src="http://cdn.edm.ibicn.com/edm/201801/00/k1.jpg" alt="周刊" width="72" height="31" border="0" /></a></td>
+                  <td width="150" align="left"><img src="http://cdn.edm.ibicn.com/edm/201801/00/lianxi.jpg" alt="服务热线" width="130" height="31" /></td>
+              </tr>
+          </table>
+      </td>
+  </tr>
+  <tr>
+    <td>
+    	<table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-top: solid 1px #CCC; border-bottom: solid 1px #CCC;">
+		  <tr>
+            <td width="9%" height=29 align="center" style=" background-color:#ef2d36; border-right:solid 1px #CCC;"><a href="http://www.ibicn.com/" title="首页" target="_blank" style="color: #FFF; text-decoration:none; font-size:12px; line-height:32px">首页</a></td>
+            <td width="9%" align="center" style=" border-right:solid 1px #CCC;"><a href="http://zixun.ibicn.com/" title="资讯" target="_blank" style="color: #333; text-decoration:none; font-size:12px;">资讯</a></td>
+            <td width="9%" align="center" style=" border-right:solid 1px #CCC;"><a href="http://huizhan.ibicn.com/" title="会展" target="_blank" style="color: #333; text-decoration:none; font-size:12px;">会展</a></td>
+            <td width="9%" align="center" style=" border-right:solid 1px #CCC;"><a href="http://shangji.ibicn.com/" title="商机" target="_blank" style="color: #333; text-decoration:none; font-size:12px;">商机</a></td>
+            <td width="9%" align="center" style=" border-right:solid 1px #CCC;"><a href="http://zhuanjia.ibioffice.com/" title="专家" target="_blank" style="color: #333; text-decoration:none; font-size:12px;">专家</a></td>
+            <td width="9%" align="center" style=" border-right:solid 1px #CCC;"><a href="http://daikuan.rongtoo.com/" title="贷款" target="_blank" style="color: #333; text-decoration:none; font-size:12px;">贷款</a></td>
+            <td width="9%" align="center" style=" border-right:solid 1px #CCC;"><a href="http://www.ibiall.com/" title="全网电商" target="_blank" style="color: #333; text-decoration:none; font-size:12px;">全网电商</a></td>
+            <td width="9%" align="center" style=" border-right:solid 1px #CCC;"><a href="http://www.ibimrp.com/" title="全网MRP" target="_blank" style="color: #333; text-decoration:none; font-size:12px;">全网MRP</a></td>
+            <td width="9%" align="center" style=" border-right:solid 1px #CCC;"><a href="http://www.ibioffice.com/" title="云办公" target="_blank" style="color: #333; text-decoration:none; font-size:12px;">云办公</a></td>
+            <td width="9%" align="center" style=" border-right:solid 1px #CCC;"><a href="http://www.ibibiz.com/" title="国际中心" target="_blank" style="color: #333; text-decoration:none; font-size:12px;">国际中心</a></td>
+            <td width="9%" align="center" ><a href="http://www.ibischool.com/" title="国联学院" target="_blank" style="color: #333; text-decoration:none; font-size:12px;">国联学院</a></td>
+          </tr>
+        </table>
+	</td>
+  </tr>
+  <tr>
+    <td align="center">
+    <a href="<%= htmlWebpackPlugin.options.lists[0].href%>" target="_blank" title="<%= htmlWebpackPlugin.options.lists[0].title%>"><img src="<%= htmlWebpackPlugin.options.imageSrc%>1.jpg" alt="<%= htmlWebpackPlugin.options.lists[0].title%>" width="638" height="234" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td style="padding: 10px 10px 0 10px;">
+    	<table width="618" border="0" align="center" cellpadding="0" cellspacing="0" style="border-top: 2px dashed #e6e6e6; margin-top: 2px;">
+          <tr>
+            <td width="120" height="142" ><a href="<%= htmlWebpackPlugin.options.lists[1].href%>" target="_blank"><img src="<%= htmlWebpackPlugin.options.imageSrc%>2.jpg" alt="<%= htmlWebpackPlugin.options.lists[1].title%>" width="120" height="120" border="0" /></a></td>
+            <td width="10">&nbsp;</td>
+            <td >
+              <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td height="36" style="vertical-align:top;"><a href="<%= htmlWebpackPlugin.options.lists[1].href%>" title="<%= htmlWebpackPlugin.options.lists[1].title%>" target="_blank" style="font-size:16px; font-weight:700; color:#666; line-height: 24px; text-decoration:none"><%= htmlWebpackPlugin.options.lists[1].title%></a></td>
+                </tr>
+                <tr>
+                  <td style="font-size:12px; color:#666; line-height:24px">{<%= htmlWebpackPlugin.options.lists[1].content%><a href="<%= htmlWebpackPlugin.options.lists[1].href%>" target="_blank" title="<%= htmlWebpackPlugin.options.lists[1].title%>" style="font-size:12px; color:#666; text-decoration:none">【阅读全文】</a></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+		</table>
+    	<table width="618" border="0" align="center" cellpadding="0" cellspacing="0" style="border-top: 2px dashed #e6e6e6; margin-top: 2px;">
+          <tr>
+            <td width="120" height="142" ><a href="<%= htmlWebpackPlugin.options.lists[2].href%>" target="_blank"><img src="<%= htmlWebpackPlugin.options.imageSrc%>3.jpg" alt="<%= htmlWebpackPlugin.options.lists[2].title%>" width="120" height="120" border="0" /></a></td>
+            <td width="10">&nbsp;</td>
+            <td >
+              <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td height="36" style="vertical-align:top;"><a href="<%= htmlWebpackPlugin.options.lists[2].href%>" title="<%= htmlWebpackPlugin.options.lists[2].href%>" target="_blank" style="font-size:16px; font-weight:700; color:#666; line-height: 24px; text-decoration:none"><%= htmlWebpackPlugin.options.lists[2].title%></a></td>
+                </tr>
+                <tr>
+                  <td style="font-size:12px; color:#666; line-height:24px"><%= htmlWebpackPlugin.options.lists[2].content%><a
+                          href="<%= htmlWebpackPlugin.options.lists[2].href%>" target="_blank" title="<%= htmlWebpackPlugin.options.lists[2].title%>" style="font-size:12px; color:#666; text-decoration:none">【阅读全文】</a></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+		</table>
+    	<table width="618" border="0" align="center" cellpadding="0" cellspacing="0" style="border-top: 2px dashed #e6e6e6; margin-top: 2px;">
+          <tr>
+            <td width="120" height="142" ><a href="<%= htmlWebpackPlugin.options.lists[3].href%>" target="_blank"><img src="<%= htmlWebpackPlugin.options.imageSrc%>4.jpg" alt="<%= htmlWebpackPlugin.options.lists[3].title%>" width="120" height="120" border="0" /></a></td>
+            <td width="10">&nbsp;</td>
+            <td >
+              <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td height="36" style="vertical-align:top;"><a href="<%= htmlWebpackPlugin.options.lists[3].href%>" title="<%= htmlWebpackPlugin.options.lists[3].title%>" target="_blank" style="font-size:16px; font-weight:700; color:#666; line-height: 24px; text-decoration:none"><%= htmlWebpackPlugin.options.lists[3].title%></a></td>
+                </tr>
+                <tr>
+                  <td style="font-size:12px; color:#666; line-height:24px"><%= htmlWebpackPlugin.options.lists[3].content%><a
+                          href="<%= htmlWebpackPlugin.options.lists[3].href%>" target="_blank" title="<%= htmlWebpackPlugin.options.lists[3].title%>" style="font-size:12px; color:#666; text-decoration:none">【阅读全文】</a></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+		</table>
+    	<table width="618" border="0" align="center" cellpadding="0" cellspacing="0" style="border-top: 2px dashed #e6e6e6; margin-top: 2px;">
+          <tr>
+            <td width="120" height="142" ><a href="<%= htmlWebpackPlugin.options.lists[4].href%>" target="_blank"><img src="<%= htmlWebpackPlugin.options.imageSrc%>5.jpg" alt="<%= htmlWebpackPlugin.options.lists[4].title%>" width="120" height="120" border="0" /></a></td>
+            <td width="10">&nbsp;</td>
+            <td >
+              <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td height="36" style="vertical-align:top;"><a href="<%= htmlWebpackPlugin.options.lists[4].href%>" title="<%= htmlWebpackPlugin.options.lists[4].title%>" target="_blank" style="font-size:16px; font-weight:700; color:#666; line-height: 24px; text-decoration:none"><%= htmlWebpackPlugin.options.lists[4].title%></a></td>
+                </tr>
+                <tr>
+                  <td style="font-size:12px; color:#666; line-height:24px"><%= htmlWebpackPlugin.options.lists[4].content%><a
+                          href="<%= htmlWebpackPlugin.options.lists[4].href%>" target="_blank" title="<%= htmlWebpackPlugin.options.lists[4].title%>" style="font-size:12px; color:#666; text-decoration:none">【阅读全文】</a></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+		</table>
+        <table width="618" border="0" align="center" cellpadding="0" cellspacing="0" style="border-top: 2px dashed #e6e6e6; margin-top: 2px;">
+            <tr>
+                <td height="10"></td>
+            </tr>
+            <tr>
+                <td height="36" style="font-size: 14px; font-weight:700; color: #ef2d36; border-bottom: 1px dotted #ccc;">◆ 往期精彩集锦 ◆</td>
+                <td style="font-size: 14px; font-weight:700; color: #ef2d36; border-bottom: 1px dotted #ccc;">&nbsp;</td>
+            </tr>
+
+            <% for (var i=5; i<htmlWebpackPlugin.options.lists.length; i+=2) { %>
+            <tr>
+                <td width="268" height="36" >◇ <a href="<%= htmlWebpackPlugin.options.lists[i].href %>" target="_blank" title="<%= htmlWebpackPlugin.options.lists[i].title%>" style="font-size: 14px; text-decoration: none; color: #666;  width:248px; display: inline-block; vertical-align: bottom;overflow:hidden; white-space:nowrap; text-overflow:ellipsis;"><%= htmlWebpackPlugin.options.lists[i].title %></a></td>
+                <% if(htmlWebpackPlugin.options.lists[i+1]) { %>
+                <td width="268" height="36" >◇ <a href="<%= htmlWebpackPlugin.options.lists[i+1].href %>" target="_blank" title="<%= htmlWebpackPlugin.options.lists[i+1].title %>" style="font-size: 14px; text-decoration: none; color: #666;  width:248px; display: inline-block; vertical-align: bottom;overflow:hidden; white-space:nowrap; text-overflow:ellipsis;"><%= htmlWebpackPlugin.options.lists[i+1].title %></a></td>
+                <% } %>
+            </tr>
+            <% } %>
+        </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" style="border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;">
+        <tr>
+          <td height="46" align="center" style="border-right: 1px solid #ccc;"><a href="http://shangji.ibicn.com/company/" style="font-size: 14px; font-weight:700; text-decoration: none; color: #ef2d36;">最新加入供应商</a></td>
+          <td align="center" style="border-right: 1px solid #ccc;"><a href="http://huizhan.ibicn.com/" style="font-size: 14px; text-decoration: none; color: #999;">最新会议</a></td>
+          <td align="center" style="border-right: 1px solid #ccc;"><a href="http://shangji.ibicn.com/supply/" style="font-size: 14px; text-decoration: none; color: #999;">优质商机</a></td>
+          <td align="center" style="border-right: 1px solid #ccc;"><a href="http://shangji.ibicn.com/bid/" style="font-size: 14px; text-decoration: none; color: #999;">项目信息</a></td>
+          <td align="center"><a href="http://zixun.ibicn.com/" style="font-size: 14px; text-decoration: none; color: #999;">最新资讯</a></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td height="95" style="background-color: #f2f2f2">
+    	<table width="592" border="0" align="center" cellpadding="0" cellspacing="0">
+		  <tr>
+		    <td valign="middle" style="font-size:12px; color:#666; line-height:24px;">
+			您之所以收到这封邮件，是因为您曾经注册成为国联资源网的用户。<br />
+该邮件为系统发送，请勿直接回复。<br />
+© 国联资源网版权所有！ </td>
+		    <td valign="top">
+                <img src="http://cdn.edm.ibicn.com/edm/201801/00/2w.png" width="66" height="83" /></td>
+		  </tr>
+		</table>
+    </td>
+  </tr>
+</table>
+<span style="display: none;">
+    <script type="text/javascript" src="http://file.ibicn.com/common/analytics-v1.js"></script>
+</span>
+</body>
+</html>

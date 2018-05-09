@@ -1,0 +1,42 @@
+Arguments: 
+  E:\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add webpack-cli -D
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;E:\新装软件\bin;E:\;E:\nodejs;E:\新装软件\Git\cmd;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;E:\Python\Python36\Scripts\;E:\Python\Python36\;C:\Users\user\AppData\Roaming\npm;E:\新装软件\Microsoft VS Code\bin;E:\nodejs;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Users\user\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  8.9.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\user\AppData\Local\Yarn\Cache\v1\npm-is-extglob-2.1.1-a88c02535791f02ed37c76a1b9ea9773c833f8c2\package.json' -> 'C:\Users\user\Desktop\webpack\node_modules\chokidar\node_modules\is-extglob\package.json'
+
+npm manifest: 
+  {
+    "name": "webpack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "helloworld.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "webpack": "^4.7.0"
+    },
+    "devDependencies": {
+      "webpack": "^4.7.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
